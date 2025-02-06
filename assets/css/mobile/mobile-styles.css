@@ -1,51 +1,24 @@
-@media (max-width: 29.6875rem) { /* 475px */
+@media (max-width: 475px) {
     body {
         font-size: 0.875rem !important; /* 14px */
     }
 
-    section.top,
-    .actions {
-        padding: 1.25rem !important; /* 20px */
+    section#hero-section {
+        padding: 120px 20px !important;
     }
 
-    header.top-section {
-        height: 15rem !important; /* 240px */
-        width: 100% !important;
-    }
+    @media (max-width: 350px) {
+        section#hero-section {
+            padding: 120px 20px !important;
+        }
 
-    div.small-text {
-        margin: 1.25rem auto !important; /* 20px */
-        font-size: 1.125rem !important; /* 18px */
-    }
+        header {
+            padding: 0 !important;
+        }
 
-    section.top > div.logo img {
-        width: 12.5rem !important; /* 200px */
-    }
-
-    .top-section > img.side-img-1,
-    .top-section > img.side-img-2 {
-        max-width: 6.25rem !important; /* 100px */
-        max-height: 6.25rem !important; /* 100px */
-    }
-    
-    .top-section > img.side-img-1 {
-        top: 0.625rem !important; /* 10px */
-    }
-
-    .top-section > img.side-img-2 {
-        top: 7.5rem !important; /* 120px */
-    }
-
-    .features {
-        padding: 1.25rem 1.25rem 0.3125rem 1.25rem !important; /* 20px 20px 5px 20px */
-    }
-
-    .features > ul {
-        padding: 0 !important;
-    }
-
-    .features img {
-        max-width: 100% !important;
-        height: 18.75rem; /* 300px */
+        nav#sub-nav-bar > ul > li {
+            width:fill-content;
+            max-width: 150px!important;
+        }
     }
 }
